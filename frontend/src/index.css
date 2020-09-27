@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+
+thead button.ascending::after {
+  content: '👇';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+thead button.descending::after {
+  content: '☝️';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+tbody td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:hover {
+  background-color: #eee;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.cards {
+  grid-gap: 3rem;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+
+.index-grey-section {
+  padding-top: 5rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(38%, transparent), color-stop(30%, #f8f8f9));
+  background-image: linear-gradient(to top, transparent 38%, #f8f8f9 30% 100%);
+}
+
+.button-pos {
+  position: relative;
+  margin-left: 5px;
+}
+
+
+.primary-blue {
+  color: #00a3e0;
+}
+
+.custom-list li {
+  list-style-image: url("./rectangle.svg");
+  float: left;
+  margin-right: 4rem;
+}
+
+/* Skill Image position */
+.skill-img {
+  position: absolute;
+  right: 8rem;
+  top: 70px;
+}
+
+/* Skill Description title position */
+.skill-desc-title-pos {
+  position: absolute;
+  right: 8rem;
+  top: 250px;
+}
+
+/* Skill Description text position */
+.skill-desc-pos {
+  position: absolute;
+  text-align: justify;
+  top: 280px;
+  right: 10px;
+  left: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.i-am-centered {
+  margin: auto;
+  max-width: 300px;
+}
+.rotating-logo {
+  width: 98%;
+  opacity: 0.2;
+  -webkit-animation: spin 36s linear infinite;
+  animation: spin 36s linear infinite;
+}
+
+.custom-list {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+  .main-container {
+    padding: 0 0;
+  }
+  .padding-on-mobile {
+    padding: 0 1.5rem !important;
+  }
+  .text-center-mobile {
+    text-align: center;
+  }
+  .text-left-mobile {
+    text-align: left !important;
+  }
+  .flex-center-mobile {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .mt-5-mobile {
+    padding-top: 2rem;
+  }
+  .pr-0-mobile {
+    padding-right: 0 !important;
+  }
+  .ml-0-mobile {
+    margin-left: 0 !important;
+  }
+  .width-limit {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .CTA-button {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+
+
+.cta-section-index-hero {
+  margin-top: 2.5rem;
+}
+
+.supporting-text {
+  font-size: 1.375rem;
+  line-height: 1.45;
+  font-weight: normal;
+  color: #00263a;
+}
+
+.accent-bg {
+  background-color: #f3f315;
+}
+
+.main-title-about-us {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.button-create {
+  display: inline-flex;
+  height: 40px;
+  width: 170px;
+  border: 2px solid #b9b9b9;
+  margin: 20px 20px 20px 20px;
+  color: #5d5d5d;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #8d8d8d;
+  /*font-family: 'Roboto';*/
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#button-3 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-3 a {
+  position: relative;
+  transition: all 0.45s ease-Out;
+  color: rgb(255, 255, 255) !important;
+}
+
+#circle {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  transition: all 0.5s ease-Out;
+  top: 20px;
+  left: 70px;
+}
+
+#button-3:hover #circle {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -70px;
+  left: -70px;
+}
+
+#button-3:hover a {
+  color: #fd908b !important;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+a:hover {
+  text-decoration: none !important;
+}
+

@@ -1,0 +1,117 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What name represents the letter &quot;M&quot; in the NATO phonetic alphabet?",
+            "correct_answer": "Mike",
+            "incorrect_answers": [
+                "Matthew",
+                "Mark",
+                "Max"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does a funambulist walk on?",
+            "correct_answer": "A Tight Rope",
+            "incorrect_answers": [
+                "Broken Glass",
+                "Balls",
+                "The Moon"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "On a dartboard, what number is directly opposite No. 1?",
+            "correct_answer": "19",
+            "incorrect_answers": [
+                "20",
+                "12",
+                "15"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "This is the correct spelling of &quot;Supercalifragilisticexpialidocious&quot;.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "The sum of all the numbers on a roulette wheel is 666.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Pluto is a planet.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Romanian belongs to the Romance language family, shared with French, Spanish, Portuguese and Italian. ",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+            "correct_answer": "Print",
+            "incorrect_answers": [
+                "Digest",
+                "Look",
+                "Read"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did the website &quot;Facebook&quot; launch?",
+            "correct_answer": "2004",
+            "incorrect_answers": [
+                "2005",
+                "2003",
+                "2006"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In flight systems, what does the initialism &quot;TCAS&quot; stand for?",
+            "correct_answer": "Traffic Collision Avoidance System",
+            "incorrect_answers": [
+                "Traffic Communication Alert System",
+                "Traffic Configuration Alignment System",
+                "Traffic Call-sign Abbreviation System"
+            ]
+        }
+    ]
+}
